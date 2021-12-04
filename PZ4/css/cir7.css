@@ -1,0 +1,39 @@
+.content_circle4{
+	width: 100px;
+	height: 100px;
+	 background-color: green;
+	 box-shadow:0 0 100px green;
+	border-radius: 50%;
+	position: absolute;
+	transform: translateY(1000%);
+	left: 1460px;
+	animation-name:circle3;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+}
+@keyframes circle3{
+	0%{
+	 background-color: green;
+	 box-shadow:0 0 100px green;
+	transform: translateY(1000%);
+	}
+	25%{
+	background-color: red;
+	 box-shadow:0 0 100px red;
+	}
+	50%{
+	background-color: yellow;
+	 box-shadow:0 0 100px yellow;
+	}
+	75%{
+	background-color: purple;
+	 box-shadow:0 0 100px purple;
+	}
+	100%{
+	background-color: blue;
+	 box-shadow:0 0 100px blue;
+	 transform: translateY(-400%);
+	}
+}

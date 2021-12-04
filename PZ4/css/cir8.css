@@ -1,0 +1,40 @@
+.content_circle8{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	 box-shadow:0 0 100px yellow;
+	border-radius: 50%;
+	position: absolute;
+	 transform: translateY(960%);
+	left: 1360px;
+	animation-name:circle8;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+}
+@keyframes circle8{
+	0%{
+	transform: translateY(960%);
+	background-color: yellow; 
+	 box-shadow:0 0 100px yellow;
+	}
+	25%{
+	background-color: green;
+	 box-shadow:0 0 100px green;
+	}
+	50%{
+	background-color: blue;
+	 box-shadow:0 0 100px blue;
+	}
+	75%{
+	background-color: purple;
+	 box-shadow:0 0 100px purple;
+	}
+	100%{
+	transform: translateY(-400%);
+	background-color: red; 
+	 box-shadow:0 0 100px red;
+	 
+	}
+}
